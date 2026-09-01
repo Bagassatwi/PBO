@@ -43,8 +43,8 @@ public class AssignmentDemo {
     Atha.setPetSize(3);
     Rayyan.setGardenSize(25);
 
-    GamingLaptop lenovoLegion = new GamingLaptop("Lenovo", 15.6F, "3840 x 2160", "Mechanical");
-    WorkLaptop lenovoIdeapad = new WorkLaptop("Lenovo", 12.4F, "1920 x 1080", "Chiclet");
+    GamingLaptop lenovoLegion = new Laptop("Lenovo", 15.6F, "3840 x 2160", "Mechanical");
+    WorkLaptop lenovoIdeapad = new Laptop("Lenovo", 12.4F, "1920 x 1080", "Chiclet");
 
     lenovoLegion.setFanSpeed(4200);
     lenovoIdeapad.setSDCardReadingSpeed(95);
