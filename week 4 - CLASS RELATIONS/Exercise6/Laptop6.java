@@ -1,0 +1,12 @@
+public class Laptop6 {
+    private String brand;
+
+    public Laptop6(String brand) {
+        this.brand = brand;
+    }
+
+    public void printDocument(Printer printer, String fileName) {
+        System.out.println(brand + " is sending a document to the printer...");
+        printer.print(fileName);
+    }
+}
